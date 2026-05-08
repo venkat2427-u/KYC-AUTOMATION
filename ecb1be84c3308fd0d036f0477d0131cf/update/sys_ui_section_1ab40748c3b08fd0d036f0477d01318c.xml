@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1ab40748c3b08fd0d036f0477d01318c" sys_domain="global" table="x_1994162_kyc_au_0_risk" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_level</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-07 10:32:17</sys_created_on>
+            <sys_id>a2c70f04c3f08fd0d036f0477d01317b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1994162_kyc_au_0_risk" sys_domain="global" view="Default view">1ab40748c3b08fd0d036f0477d01318c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-07 10:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-07 10:32:18</sys_created_on>
+            <sys_id>22c70f04c3f08fd0d036f0477d01317c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1994162_kyc_au_0_risk" sys_domain="global" view="Default view">1ab40748c3b08fd0d036f0477d01318c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-07 10:32:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sanctions_flag</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-07 10:32:18</sys_created_on>
+            <sys_id>aec70f04c3f08fd0d036f0477d01317c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1994162_kyc_au_0_risk" sys_domain="global" view="Default view">1ab40748c3b08fd0d036f0477d01318c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-07 10:32:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pep_flag</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-07 10:32:18</sys_created_on>
+            <sys_id>3ec70f04c3f08fd0d036f0477d01317d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1994162_kyc_au_0_risk" sys_domain="global" view="Default view">1ab40748c3b08fd0d036f0477d01318c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-07 10:32:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1994162_kyc_au_0_risk</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-07 10:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ab40748c3b08fd0d036f0477d01318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1994162_kyc_au_0_risk</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="KYC AUTOMATION" source="x_1994162_kyc_au_0">ecb1be84c3308fd0d036f0477d0131cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KYC AUTOMATION">ecb1be84c3308fd0d036f0477d0131cf</sys_scope>
+            <sys_update_name>sys_ui_section_1ab40748c3b08fd0d036f0477d01318c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-07 10:18:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

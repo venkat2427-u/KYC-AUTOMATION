@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f233a88c3308fd0d036f0477d0131e0" label="Customer." max_length="40" name="x_1994162_kyc_au_0_custr" type="collection">
+        <element label="NAME" max_length="40" name="name" type="string"/>
+        <element label="STATUS" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="REJECTED" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="APPROVED" sequence="1" value="approved"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="DATE OF BIRTH" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="PHONE" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="EMAIL" max_length="40" name="email" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

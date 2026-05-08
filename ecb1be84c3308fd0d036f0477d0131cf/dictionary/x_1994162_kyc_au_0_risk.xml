@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f8b4cb8cc3b08fd0d036f0477d013170" label="RISK" max_length="40" name="x_1994162_kyc_au_0_risk" type="collection">
+        <element label="Sanctions flag" max_length="40" name="sanctions_flag" type="boolean"/>
+        <element label="CUSTOMER" max_length="32" name="customer" reference="x_1994162_kyc_au_0_custr" type="reference"/>
+        <element label="PEP FLAG" max_length="40" name="pep_flag" type="boolean"/>
+        <element label="RISK LEVEL" max_length="40" name="risk_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HIGH" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="MEDIUM" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="LOW" sequence="0" value="low"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

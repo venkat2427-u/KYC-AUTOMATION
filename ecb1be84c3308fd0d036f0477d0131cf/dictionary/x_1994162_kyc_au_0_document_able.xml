@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fec10f08c3b08fd0d036f0477d01311b" label="document able" max_length="40" name="x_1994162_kyc_au_0_document_able" type="collection">
+        <element choice="1" label="DOCUMENT TYPE" mandatory="true" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PASSPORT" sequence="2" value="passport"/>
+                <element inactive_on_update="false" label="AADHAR" sequence="0" value="aadhar"/>
+                <element inactive_on_update="false" label="PAN" sequence="1" value="pan"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="DOCUMENT" max_length="255" name="document" type="file_attachment"/>
+        <element default="aadhar" label="PASSWORD TYPE" max_length="40" name="password_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PAN" sequence="2" value="pan"/>
+                <element inactive_on_update="false" label="PASSPORT" sequence="0" value="passport"/>
+                <element inactive_on_update="false" label="AADHAR" sequence="1" value="aadhar"/>
+            </choice>
+        </element>
+        <element label="Customer" max_length="32" name="customer" reference="x_1994162_kyc_au_0_custr" type="reference"/>
+        <element default="pending" label="STATUS" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="APPROVED" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="PENDING" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="REJECTED" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

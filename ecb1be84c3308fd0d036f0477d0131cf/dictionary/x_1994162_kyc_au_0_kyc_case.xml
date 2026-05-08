@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4decb2ccc3708fd0d036f0477d013160" label="KYC Case" max_length="40" name="x_1994162_kyc_au_0_kyc_case" type="collection">
+        <element choice="1" label="STATE" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="VERIFIED" sequence="3" value="verified"/>
+                <element inactive_on_update="false" label="NEW" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="IN _PROGRESS" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="ON_HOLD" sequence="2" value="on_hold"/>
+            </choice>
+        </element>
+        <element label="ASSIGNED ANALYST" max_length="32" name="assigned_analyst" reference="sys_user" type="reference"/>
+        <element label="Customer" max_length="32" name="customer" reference="x_1994162_kyc_au_0_custr" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="SLA" max_length="40" name="sla" type="glide_duration"/>
+        <index name="index">
+            <element name="assigned_analyst"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

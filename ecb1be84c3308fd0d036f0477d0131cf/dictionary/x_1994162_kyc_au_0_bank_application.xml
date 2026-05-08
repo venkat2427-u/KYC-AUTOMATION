@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a3e04ecc3b80314d036f0477d0131a7" label="Bank Application" max_length="40" name="x_1994162_kyc_au_0_bank_application" type="collection">
+        <element label="Street" max_length="40" name="u_street" type="string"/>
+        <element label="State" max_length="20" name="u_state" type="string"/>
+        <element label="Date of Birth" max_length="40" name="u_dob" type="glide_date"/>
+        <element label="ZIP Code" max_length="10" name="u_zip" type="string"/>
+        <element label="Country" max_length="20" name="u_country" type="string"/>
+        <element label="City" max_length="40" name="u_city" type="string"/>
+        <element label="Account Type" max_length="20" name="u_account_type" type="string"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="Deposit" max_length="10" name="u_deposit" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Phone" max_length="10" name="phone" type="string"/>
+        <element label="Notes" max_length="100" name="u_notes" type="string_full_utf8"/>
+        <element label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="u_first_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
